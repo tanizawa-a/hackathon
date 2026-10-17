@@ -1,0 +1,230 @@
+{
+  "note": "Videos excluded from the demo ranking. Edit freely; ids are contentIds from ranking.json.",
+  "items": [
+    {
+      "id": "sm46916807",
+      "title": "インドで｢ゴキブリ人民党｣が政治を動かしている件について",
+      "reason": "politics"
+    },
+    {
+      "id": "sm46908781",
+      "title": "スペインで抗議デモを契機に解散総選挙が発表された件について",
+      "reason": "politics"
+    },
+    {
+      "id": "sm46922500",
+      "title": "エチオピアとエリトリアがまた戦争状態に入るかもな件について",
+      "reason": "war"
+    },
+    {
+      "id": "sm46927710",
+      "title": "有識者、だんじり批判について苦言→地獄のような泥仕合になってしまう…",
+      "reason": "controversy"
+    },
+    {
+      "id": "sm46913139",
+      "title": "ミタマ「主人がオオアリクイに殺されて１年がたちました」",
+      "reason": "death"
+    },
+    {
+      "id": "sm46920663",
+      "title": "未解決事件の現場に行ってみた 14件目",
+      "reason": "real crime"
+    },
+    {
+      "id": "sm46907298",
+      "title": "『ヒガンフグ食中毒事件』を解説",
+      "reason": "real incident"
+    },
+    {
+      "id": "sm46914492",
+      "title": "きっぱりとあそこでは飛べないと言えたらよかった",
+      "reason": "unclear content"
+    },
+    {
+      "id": "sm46911989",
+      "title": "台湾でエロ同人誌買ってきた！ ｜ 台湾旅行編 #4【終】",
+      "reason": "sexual"
+    },
+    {
+      "id": "sm46909218",
+      "title": "INMU KING / 神秘的プログレRemix 歌詞字幕付き",
+      "reason": "inappropriate meme"
+    },
+    {
+      "id": "sm46924528",
+      "title": "【ワロタ、俺の家のとなり魔王城www】メスガキ魔王の生ライブが最高過ぎる神ゲー【VOICEROID実況】",
+      "reason": "suggestive"
+    },
+    {
+      "id": "sm46931501",
+      "title": "ゾンビ化して卵を産みつけられる【#亜人学校】",
+      "reason": "suggestive / grotesque"
+    },
+    {
+      "id": "sm46931119",
+      "title": "控訴で無期から死刑になった裁判　解説",
+      "reason": "death penalty case"
+    },
+    {
+      "id": "sm46920660",
+      "title": "【2016】『全身の激痛と黒い尿』食べ放題を楽しんでいた女性に起きた地獄の症状…筋肉が溶けだし尿が黒くなる奇病『ザリガニHaff病事件』を解説（ﾘﾒｲｸ",
+      "reason": "real incident (illness)"
+    },
+    {
+      "id": "sm46924000",
+      "title": "【2015】『食べ過ぎると死ぬあの種』年末に向けてダイエット中の女子高生を襲った地獄の症状…原因は体にいいと思って食べていた『銀杏』…『銀杏中毒事故』を解説（ﾘﾒｲｸ",
+      "reason": "real incident (poisoning)"
+    },
+    {
+      "id": "sm46927879",
+      "title": "【2022】『こいつ！許さん！』→娘を傷つけたカニに対しキレた父。怒りに任せバリバリとカニを噛み砕き飲み込んだ結果、体が寄生虫だらけに…『ウェステルマン肺吸虫事故』を解説（ﾘﾒｲｸ",
+      "reason": "real incident (parasite)"
+    },
+    {
+      "id": "sm46924232",
+      "title": "雪さんが個人経営してる買取専門店に強盗に行くずんだもん【草生える】【大草原】【植林:Lv.100】【砂漠の尊厳破壊】【樹海化】【ミトコンドリア大爆殖】【#00FF00】【草版の水平線、草平線が見える】",
+      "reason": "crime (robbery) comedy"
+    },
+    {
+      "id": "sm46922105",
+      "title": "AI疑惑を払拭できない自称絵師さん！？まずいですよ！",
+      "reason": "targets an individual"
+    },
+    {
+      "id": "sm46901132",
+      "title": "INMU KING (アメリカ) #ai お前戦争しスギ",
+      "reason": "inappropriate meme / war"
+    },
+    {
+      "id": "sm46843185",
+      "title": "【非常に好評】Hitler Waifu 2 any%RTA 04:41【72円】",
+      "reason": "Hitler title"
+    },
+    {
+      "id": "sm46835167",
+      "title": "【男の娘】今だけ☆男子☆食べ美！mg(^д^)",
+      "reason": "suggestive"
+    },
+    {
+      "id": "sm46844353",
+      "title": "【下園れいか・るなち】＋♂踊ってみた【安藤未知・わに・えまちゃんこ鍋】",
+      "reason": "suggestive title"
+    },
+    {
+      "id": "sm46837280",
+      "title": "【成人幼女mua.×魔法幼女ぴな】いますぐ輪廻 - なきそ　【歌って踊ってみた】",
+      "reason": "suggestive title"
+    },
+    {
+      "id": "sm46908743",
+      "title": "【原石祭2026】琴詠ニアの髪の毛を食べよう！！【ソフトウェアトークキッチン】",
+      "reason": "grotesque title"
+    },
+    {
+      "id": "sm46815086",
+      "title": "ガチでアライグマのスモークハムをつくってみた。",
+      "reason": "raccoon meat (may upset viewers)"
+    },
+    {
+      "id": "sm46810572",
+      "title": "【VOICEROID劇場】東北家の〇情完全版～其の弐～",
+      "reason": "suggestive (censored word)"
+    },
+    {
+      "id": "sm46896049",
+      "title": "【VOICEROID劇場】東北家の〇情完全版～其の伍～",
+      "reason": "suggestive (censored word)"
+    },
+    {
+      "id": "sm46851814",
+      "title": "ヒップアタックする結月ゆかり雫BB",
+      "reason": "suggestive"
+    },
+    {
+      "id": "sm46835817",
+      "title": "ジジイが叫んでうるさいので骨刺して黙らせた話【VOICEROID実況/Texas Chain Saw Massacre/テキサスチェーンソー】",
+      "reason": "violent title"
+    },
+    {
+      "id": "sm46885829",
+      "title": "地下で殺人鬼をボコすのに夢中になってたババアの末路【VOICEROID実況/Texas Chain Saw Massacre/テキサスチェーンソー】",
+      "reason": "violent title"
+    },
+    {
+      "id": "sm46862579",
+      "title": "テキサスに巣食う悪魔を退治する葵ちゃん【VOICEROID実況/Texas Chain Saw Massacre/テキサスチェーンソー】",
+      "reason": "violent title"
+    },
+    {
+      "id": "sm46822725",
+      "title": "か弱い少女が口の臭さを武器に加害者と戦う話【VOICEROID実況/Texas Chain Saw Massacre/テキサスチェーンソー】",
+      "reason": "violent title"
+    },
+    {
+      "id": "sm46818555",
+      "title": "味方を囮に一人だけ帰宅するクズ被害者【VOICEROID実況/Texas Chain Saw Massacre/テキサスチェーンソー】",
+      "reason": "violent title"
+    },
+    {
+      "id": "sm46854011",
+      "title": "ご新規育成はボーンズおじさんにお任せあれ！！【VOICEROID実況/Texas Chain Saw Massacre/テキサスチェーンソー】",
+      "reason": "violent title"
+    },
+    {
+      "id": "sm46900632",
+      "title": "ひたすらゴリ押しで道を切り拓く漢気番長リーランド【VOICEROID実況/Texas Chain Saw Massacre/テキサスチェーンソー】",
+      "reason": "violent title"
+    },
+    {
+      "id": "sm46877754",
+      "title": "必死に家族の役に立とうとする健気な少女シシーちゃん【VOICEROID実況/Texas Chain Saw Massacre/テキサスチェーンソー】",
+      "reason": "violent title"
+    },
+    {
+      "id": "sm46818535",
+      "title": "【絶望とともに】アウターサイエンス　歌ってみた　【田中レドラ】",
+      "reason": "suicide-related title"
+    },
+    {
+      "id": "sm46842142",
+      "title": "【歌ってみた】スーサイドパレヱド【お冷や】",
+      "reason": "suicide-related title"
+    },
+    {
+      "id": "sm46860430",
+      "title": "君が代は　君が代は　君が代は　ガンダム",
+      "reason": "national anthem parody"
+    },
+    {
+      "id": "sm46818280",
+      "title": "オールマインドでおっぱい吹っ切れたVer2",
+      "reason": "sexual"
+    },
+    {
+      "id": "sm46900394",
+      "title": "【再投稿】魔理沙  x スレチガイ x  Tバック【東方MMD】",
+      "reason": "suggestive"
+    },
+    {
+      "id": "sm46827541",
+      "title": "【MMD艦これ】銀ビキニな黒潮ちゃんで「テレキャスタービーボーイ・エゴロック」【シルバーウイーク緊急企画】",
+      "reason": "suggestive (swimsuit)"
+    },
+    {
+      "id": "sm46850664",
+      "title": "ミジンコしゅお 宮舞を食べる",
+      "reason": "grotesque title"
+    },
+    {
+      "id": "sm46725480",
+      "title": "〈3位感謝❗〉【人生の声たちで】「ダーリンゲームオーバーラブ」【歌ってみた】　#歌コレ2026秋マイキP部門【侮酷賄】",
+      "reason": "suggestive title"
+    },
+    {
+      "id": "sm46811588",
+      "title": "アナグマ【ナースロボ】",
+      "reason": "animal butchering thumbnail"
+    }
+  ]
+}

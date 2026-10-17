@@ -1,0 +1,6 @@
+node_modules
+dist
+public/videos/*.mp4
+.cache
+public/thumbnails/real
+public/thumbnails/mosaic

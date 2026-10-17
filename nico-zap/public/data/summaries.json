@@ -1,0 +1,338 @@
+{
+  "peaks": [
+    {
+      "videoId": "mock01",
+      "from": 36,
+      "to": 94,
+      "oneLine": "コメントが一気に増えた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock01",
+      "from": 94,
+      "to": 165,
+      "oneLine": "「ここすき」が集中した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock02",
+      "from": 19,
+      "to": 74,
+      "oneLine": "笑いのコメントが続いた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock02",
+      "from": 74,
+      "to": 112,
+      "oneLine": "「8888」が流れた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock02",
+      "from": 112,
+      "to": 165,
+      "oneLine": "驚きのコメントが重なった場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock03",
+      "from": 16,
+      "to": 58,
+      "oneLine": "今回いちばんの盛り上がり",
+      "recap": ""
+    },
+    {
+      "videoId": "mock03",
+      "from": 58,
+      "to": 88,
+      "oneLine": "感想コメントが急増した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock03",
+      "from": 88,
+      "to": 129,
+      "oneLine": "「きたー」が連続した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock03",
+      "from": 129,
+      "to": 165,
+      "oneLine": "コメントが一気に増えた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock04",
+      "from": 86,
+      "to": 268,
+      "oneLine": "「ここすき」が集中した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock04",
+      "from": 268,
+      "to": 398,
+      "oneLine": "笑いのコメントが続いた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock04",
+      "from": 398,
+      "to": 551,
+      "oneLine": "「8888」が流れた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock04",
+      "from": 551,
+      "to": 678,
+      "oneLine": "驚きのコメントが重なった場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock04",
+      "from": 678,
+      "to": 784,
+      "oneLine": "今回いちばんの盛り上がり",
+      "recap": ""
+    },
+    {
+      "videoId": "mock04",
+      "from": 784,
+      "to": 934,
+      "oneLine": "感想コメントが急増した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock04",
+      "from": 934,
+      "to": 1085,
+      "oneLine": "「きたー」が連続した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock04",
+      "from": 1085,
+      "to": 1268,
+      "oneLine": "コメントが一気に増えた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock04",
+      "from": 1268,
+      "to": 1397,
+      "oneLine": "「ここすき」が集中した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock04",
+      "from": 1397,
+      "to": 1558,
+      "oneLine": "笑いのコメントが続いた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock04",
+      "from": 1558,
+      "to": 1664,
+      "oneLine": "「8888」が流れた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock04",
+      "from": 1664,
+      "to": 1785,
+      "oneLine": "驚きのコメントが重なった場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock05",
+      "from": 24,
+      "to": 64,
+      "oneLine": "今回いちばんの盛り上がり",
+      "recap": ""
+    },
+    {
+      "videoId": "mock05",
+      "from": 64,
+      "to": 94,
+      "oneLine": "感想コメントが急増した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock05",
+      "from": 93,
+      "to": 135,
+      "oneLine": "「きたー」が連続した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock05",
+      "from": 135,
+      "to": 165,
+      "oneLine": "コメントが一気に増えた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock06",
+      "from": 55,
+      "to": 127,
+      "oneLine": "「ここすき」が集中した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock06",
+      "from": 127,
+      "to": 165,
+      "oneLine": "笑いのコメントが続いた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock07",
+      "from": 27,
+      "to": 57,
+      "oneLine": "「8888」が流れた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock07",
+      "from": 51,
+      "to": 94,
+      "oneLine": "驚きのコメントが重なった場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock07",
+      "from": 94,
+      "to": 133,
+      "oneLine": "今回いちばんの盛り上がり",
+      "recap": ""
+    },
+    {
+      "videoId": "mock07",
+      "from": 133,
+      "to": 165,
+      "oneLine": "感想コメントが急増した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock08",
+      "from": 57,
+      "to": 243,
+      "oneLine": "「きたー」が連続した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock08",
+      "from": 243,
+      "to": 391,
+      "oneLine": "コメントが一気に増えた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock08",
+      "from": 391,
+      "to": 492,
+      "oneLine": "「ここすき」が集中した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock08",
+      "from": 492,
+      "to": 645,
+      "oneLine": "笑いのコメントが続いた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock08",
+      "from": 645,
+      "to": 782,
+      "oneLine": "「8888」が流れた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock08",
+      "from": 782,
+      "to": 987,
+      "oneLine": "驚きのコメントが重なった場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock08",
+      "from": 987,
+      "to": 1111,
+      "oneLine": "今回いちばんの盛り上がり",
+      "recap": ""
+    },
+    {
+      "videoId": "mock08",
+      "from": 1111,
+      "to": 1249,
+      "oneLine": "感想コメントが急増した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock08",
+      "from": 1249,
+      "to": 1396,
+      "oneLine": "「きたー」が連続した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock08",
+      "from": 1396,
+      "to": 1535,
+      "oneLine": "コメントが一気に増えた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock08",
+      "from": 1535,
+      "to": 1697,
+      "oneLine": "「ここすき」が集中した場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock08",
+      "from": 1697,
+      "to": 1785,
+      "oneLine": "笑いのコメントが続いた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock09",
+      "from": 41,
+      "to": 74,
+      "oneLine": "「8888」が流れた場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock10",
+      "from": 32,
+      "to": 106,
+      "oneLine": "驚きのコメントが重なった場面",
+      "recap": ""
+    },
+    {
+      "videoId": "mock10",
+      "from": 106,
+      "to": 165,
+      "oneLine": "今回いちばんの盛り上がり",
+      "recap": ""
+    }
+  ],
+  "liveRecaps": {
+    "mock04": [
+      "雑談パートから企画コーナーへ移り、視聴者アンケートの結果発表で盛り上がりました。",
+      "リスナー参加型のクイズが始まり、難問の正解者が出たところでコメントが急増しました。",
+      "ゲストが合流して近況トークに。次回の企画告知があり、歓声が上がりました。"
+    ],
+    "mock08": [
+      "ゲーム実況はボス戦に突入。2回の全滅を経て、3回目で撃破しました。",
+      "新エリアに到達し、隠しアイテムを発見。視聴者のアドバイスが的中しました。",
+      "耐久企画の目標まで残りわずか。ラストスパートで応援コメントが殺到しています。"
+    ]
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "source": "mock",
+  "fetchedAt": "2026-10-17T04:30:39.572Z",
+  "pool": [
+    {
+      "id": "mock-item-1",
+      "title": "【踊ってみた】新曲を全力で踊ってみた",
+      "genre": "ダンス",
+      "tags": [
+        "踊ってみた"
+      ],
+      "viewCounter": 5011,
+      "commentCounter": 28123,
+      "likeCounter": 1546,
+      "mylistCounter": 431,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    },
+    {
+      "id": "mock-item-2",
+      "title": "【実況】伝説の高難度ステージに挑戦",
+      "genre": "ゲーム",
+      "tags": [
+        "ゲーム実況"
+      ],
+      "viewCounter": 150874,
+      "commentCounter": 16481,
+      "likeCounter": 1747,
+      "mylistCounter": 1514,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    },
+    {
+      "id": "mock-item-3",
+      "title": "【歌ってみた】夜明けのメロディ",
+      "genre": "音楽・サウンド",
+      "tags": [
+        "歌ってみた"
+      ],
+      "viewCounter": 156015,
+      "commentCounter": 16786,
+      "likeCounter": 3523,
+      "mylistCounter": 1282,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    },
+    {
+      "id": "mock-item-4",
+      "title": "【雑談】まったり企画会議",
+      "genre": "エンターテイメント",
+      "tags": [
+        "雑談"
+      ],
+      "viewCounter": 168351,
+      "commentCounter": 7760,
+      "likeCounter": 1971,
+      "mylistCounter": 1426,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    },
+    {
+      "id": "mock-item-5",
+      "title": "【料理】30分で作る本格カレー",
+      "genre": "料理",
+      "tags": [
+        "料理"
+      ],
+      "viewCounter": 144609,
+      "commentCounter": 2117,
+      "likeCounter": 3520,
+      "mylistCounter": 946,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    },
+    {
+      "id": "mock-item-6",
+      "title": "【MAD】名シーン総集編",
+      "genre": "アニメ",
+      "tags": [
+        "MAD"
+      ],
+      "viewCounter": 189480,
+      "commentCounter": 24722,
+      "likeCounter": 714,
+      "mylistCounter": 1036,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    },
+    {
+      "id": "mock-item-7",
+      "title": "【演奏してみた】ピアノで弾く人気アニメOP",
+      "genre": "音楽・サウンド",
+      "tags": [
+        "演奏してみた"
+      ],
+      "viewCounter": 189634,
+      "commentCounter": 21155,
+      "likeCounter": 3319,
+      "mylistCounter": 1165,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    },
+    {
+      "id": "mock-item-8",
+      "title": "【実況】耐久ゲーム クリアまで終われません",
+      "genre": "ゲーム",
+      "tags": [
+        "ゲーム実況"
+      ],
+      "viewCounter": 187399,
+      "commentCounter": 27750,
+      "likeCounter": 1961,
+      "mylistCounter": 681,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    },
+    {
+      "id": "mock-item-9",
+      "title": "【解説】初心者向け 作曲のはじめかた",
+      "genre": "解説・講座",
+      "tags": [
+        "VOCALOID"
+      ],
+      "viewCounter": 172434,
+      "commentCounter": 10468,
+      "likeCounter": 863,
+      "mylistCounter": 605,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    },
+    {
+      "id": "mock-item-10",
+      "title": "【手描き】オリジナルキャラで短編アニメ",
+      "genre": "アニメ",
+      "tags": [
+        "描いてみた"
+      ],
+      "viewCounter": 90694,
+      "commentCounter": 9346,
+      "likeCounter": 4786,
+      "mylistCounter": 1125,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    },
+    {
+      "id": "mock-item-11",
+      "title": "【ゆっくり解説】宇宙のふしぎ",
+      "genre": "解説・講座",
+      "tags": [
+        "ゆっくり解説"
+      ],
+      "viewCounter": 150854,
+      "commentCounter": 26836,
+      "likeCounter": 393,
+      "mylistCounter": 557,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    },
+    {
+      "id": "mock-item-12",
+      "title": "【RTA】最速クリアに挑戦",
+      "genre": "ゲーム",
+      "tags": [
+        "RTA",
+        "ゲーム実況"
+      ],
+      "viewCounter": 117126,
+      "commentCounter": 15764,
+      "likeCounter": 2207,
+      "mylistCounter": 396,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    },
+    {
+      "id": "mock-item-13",
+      "title": "【旅動画】電車で行く温泉めぐり",
+      "genre": "旅行・アウトドア",
+      "tags": [
+        "旅行",
+        "鉄道"
+      ],
+      "viewCounter": 186794,
+      "commentCounter": 2146,
+      "likeCounter": 1927,
+      "mylistCounter": 698,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    },
+    {
+      "id": "mock-item-14",
+      "title": "【電子工作】光るキーボードを自作",
+      "genre": "技術・工作",
+      "tags": [
+        "電子工作"
+      ],
+      "viewCounter": 137884,
+      "commentCounter": 28230,
+      "likeCounter": 2674,
+      "mylistCounter": 341,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    },
+    {
+      "id": "mock-item-15",
+      "title": "【料理】おばあちゃんの味噌汁",
+      "genre": "料理",
+      "tags": [
+        "料理"
+      ],
+      "viewCounter": 86124,
+      "commentCounter": 9008,
+      "likeCounter": 1922,
+      "mylistCounter": 858,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    },
+    {
+      "id": "mock-item-16",
+      "title": "【ボカロ】オリジナル曲 第3弾",
+      "genre": "音楽・サウンド",
+      "tags": [
+        "VOCALOID",
+        "初音ミク"
+      ],
+      "viewCounter": 71514,
+      "commentCounter": 16450,
+      "likeCounter": 3170,
+      "mylistCounter": 476,
+      "lengthSeconds": 180,
+      "startTime": "2026-10-17T04:30:39.572Z"
+    }
+  ],
+  "tagPools": {
+    "VOICEROIDキッチン": [],
+    "VOCALOID": [
+      {
+        "id": "mock-item-9",
+        "title": "【解説】初心者向け 作曲のはじめかた",
+        "genre": "解説・講座",
+        "tags": [
+          "VOCALOID"
+        ],
+        "viewCounter": 172434,
+        "commentCounter": 10468,
+        "likeCounter": 863,
+        "mylistCounter": 605,
+        "lengthSeconds": 180,
+        "startTime": "2026-10-17T04:30:39.572Z"
+      },
+      {
+        "id": "mock-item-16",
+        "title": "【ボカロ】オリジナル曲 第3弾",
+        "genre": "音楽・サウンド",
+        "tags": [
+          "VOCALOID",
+          "初音ミク"
+        ],
+        "viewCounter": 71514,
+        "commentCounter": 16450,
+        "likeCounter": 3170,
+        "mylistCounter": 476,
+        "lengthSeconds": 180,
+        "startTime": "2026-10-17T04:30:39.572Z"
+      }
+    ],
+    "歌ってみた": [
+      {
+        "id": "mock-item-3",
+        "title": "【歌ってみた】夜明けのメロディ",
+        "genre": "音楽・サウンド",
+        "tags": [
+          "歌ってみた"
+        ],
+        "viewCounter": 156015,
+        "commentCounter": 16786,
+        "likeCounter": 3523,
+        "mylistCounter": 1282,
+        "lengthSeconds": 180,
+        "startTime": "2026-10-17T04:30:39.572Z"
+      }
+    ],
+    "踊ってみた": [
+      {
+        "id": "mock-item-1",
+        "title": "【踊ってみた】新曲を全力で踊ってみた",
+        "genre": "ダンス",
+        "tags": [
+          "踊ってみた"
+        ],
+        "viewCounter": 5011,
+        "commentCounter": 28123,
+        "likeCounter": 1546,
+        "mylistCounter": 431,
+        "lengthSeconds": 180,
+        "startTime": "2026-10-17T04:30:39.572Z"
+      }
+    ],
+    "演奏してみた": [
+      {
+        "id": "mock-item-7",
+        "title": "【演奏してみた】ピアノで弾く人気アニメOP",
+        "genre": "音楽・サウンド",
+        "tags": [
+          "演奏してみた"
+        ],
+        "viewCounter": 189634,
+        "commentCounter": 21155,
+        "likeCounter": 3319,
+        "mylistCounter": 1165,
+        "lengthSeconds": 180,
+        "startTime": "2026-10-17T04:30:39.572Z"
+      }
+    ],
+    "ゲーム実況": [
+      {
+        "id": "mock-item-2",
+        "title": "【実況】伝説の高難度ステージに挑戦",
+        "genre": "ゲーム",
+        "tags": [
+          "ゲーム実況"
+        ],
+        "viewCounter": 150874,
+        "commentCounter": 16481,
+        "likeCounter": 1747,
+        "mylistCounter": 1514,
+        "lengthSeconds": 180,
+        "startTime": "2026-10-17T04:30:39.572Z"
+      },
+      {
+        "id": "mock-item-8",
+        "title": "【実況】耐久ゲーム クリアまで終われません",
+        "genre": "ゲーム",
+        "tags": [
+          "ゲーム実況"
+        ],
+        "viewCounter": 187399,
+        "commentCounter": 27750,
+        "likeCounter": 1961,
+        "mylistCounter": 681,
+        "lengthSeconds": 180,
+        "startTime": "2026-10-17T04:30:39.572Z"
+      },
+      {
+        "id": "mock-item-12",
+        "title": "【RTA】最速クリアに挑戦",
+        "genre": "ゲーム",
+        "tags": [
+          "RTA",
+          "ゲーム実況"
+        ],
+        "viewCounter": 117126,
+        "commentCounter": 15764,
+        "likeCounter": 2207,
+        "mylistCounter": 396,
+        "lengthSeconds": 180,
+        "startTime": "2026-10-17T04:30:39.572Z"
+      }
+    ],
+    "RTA": [
+      {
+        "id": "mock-item-12",
+        "title": "【RTA】最速クリアに挑戦",
+        "genre": "ゲーム",
+        "tags": [
+          "RTA",
+          "ゲーム実況"
+        ],
+        "viewCounter": 117126,
+        "commentCounter": 15764,
+        "likeCounter": 2207,
+        "mylistCounter": 396,
+        "lengthSeconds": 180,
+        "startTime": "2026-10-17T04:30:39.572Z"
+      }
+    ],
+    "料理": [
+      {
+        "id": "mock-item-5",
+        "title": "【料理】30分で作る本格カレー",
+        "genre": "料理",
+        "tags": [
+          "料理"
+        ],
+        "viewCounter": 144609,
+        "commentCounter": 2117,
+        "likeCounter": 3520,
+        "mylistCounter": 946,
+        "lengthSeconds": 180,
+        "startTime": "2026-10-17T04:30:39.572Z"
+      },
+      {
+        "id": "mock-item-15",
+        "title": "【料理】おばあちゃんの味噌汁",
+        "genre": "料理",
+        "tags": [
+          "料理"
+        ],
+        "viewCounter": 86124,
+        "commentCounter": 9008,
+        "likeCounter": 1922,
+        "mylistCounter": 858,
+        "lengthSeconds": 180,
+        "startTime": "2026-10-17T04:30:39.572Z"
+      }
+    ],
+    "描いてみた": [
+      {
+        "id": "mock-item-10",
+        "title": "【手描き】オリジナルキャラで短編アニメ",
+        "genre": "アニメ",
+        "tags": [
+          "描いてみた"
+        ],
+        "viewCounter": 90694,
+        "commentCounter": 9346,
+        "likeCounter": 4786,
+        "mylistCounter": 1125,
+        "lengthSeconds": 180,
+        "startTime": "2026-10-17T04:30:39.572Z"
+      }
+    ],
+    "旅行": [
+      {
+        "id": "mock-item-13",
+        "title": "【旅動画】電車で行く温泉めぐり",
+        "genre": "旅行・アウトドア",
+        "tags": [
+          "旅行",
+          "鉄道"
+        ],
+        "viewCounter": 186794,
+        "commentCounter": 2146,
+        "likeCounter": 1927,
+        "mylistCounter": 698,
+        "lengthSeconds": 180,
+        "startTime": "2026-10-17T04:30:39.572Z"
+      }
+    ],
+    "鉄道": [
+      {
+        "id": "mock-item-13",
+        "title": "【旅動画】電車で行く温泉めぐり",
+        "genre": "旅行・アウトドア",
+        "tags": [
+          "旅行",
+          "鉄道"
+        ],
+        "viewCounter": 186794,
+        "commentCounter": 2146,
+        "likeCounter": 1927,
+        "mylistCounter": 698,
+        "lengthSeconds": 180,
+        "startTime": "2026-10-17T04:30:39.572Z"
+      }
+    ],
+    "初音ミク": [
+      {
+        "id": "mock-item-16",
+        "title": "【ボカロ】オリジナル曲 第3弾",
+        "genre": "音楽・サウンド",
+        "tags": [
+          "VOCALOID",
+          "初音ミク"
+        ],
+        "viewCounter": 71514,
+        "commentCounter": 16450,
+        "likeCounter": 3170,
+        "mylistCounter": 476,
+        "lengthSeconds": 180,
+        "startTime": "2026-10-17T04:30:39.572Z"
+      }
+    ],
+    "MMD": []
+  }
+}

@@ -1,0 +1,528 @@
+.zap-stack-panel {
+  --zap-bg: rgba(15, 15, 15, 0.92);
+  --zap-fg: #f1f1f1;
+  --zap-muted: #aaa;
+  --zap-accent: #ff0033;
+  --zap-border: rgba(255, 255, 255, 0.12);
+
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  z-index: 2147483000;
+  width: min(560px, calc(100vw - 32px));
+  display: flex;
+  flex-direction: column;
+  background: var(--zap-bg);
+  color: var(--zap-fg);
+  border: 1px solid var(--zap-border);
+  border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+  font-family: "Roboto", "Noto Sans JP", system-ui, sans-serif;
+  font-size: 12px;
+  overflow: hidden;
+  backdrop-filter: blur(8px);
+  transition: width 0.25s ease;
+}
+
+.zap-stack-panel[hidden] {
+  display: none;
+}
+
+.zap-stack-panel.is-zoomed {
+  width: min(880px, calc(100vw - 32px));
+}
+
+/* Maximized: the panel fills the viewport (offsets are set from JS) and the
+   tiles share the available height, letterboxed by the player. */
+.zap-stack-panel.is-maximized {
+  width: auto;
+}
+
+.zap-stack-panel.is-maximized .zap-stack-header {
+  cursor: default;
+}
+
+.zap-stack-panel.is-maximized .zap-stack-grid {
+  flex: 1;
+  min-height: 0;
+}
+
+.zap-stack-panel.is-maximized .zap-stack-tile {
+  min-height: 0;
+}
+
+.zap-stack-panel.is-maximized .zap-stack-screen {
+  flex: 1;
+  min-height: 0;
+  aspect-ratio: auto;
+}
+
+.zap-stack-panel.is-maximized .zap-stack-resize {
+  display: none;
+}
+
+.zap-stack-panel.is-dragging,
+.zap-stack-panel.is-resizing {
+  transition: none;
+  user-select: none;
+}
+
+/* Iframes would swallow pointer and drag events while the pointer passes
+   over them. */
+.zap-stack-panel.is-resizing iframe,
+.zap-stack-panel.is-dragging iframe,
+.zap-stack-panel.is-drop-target iframe {
+  pointer-events: none;
+}
+
+/* Drop target ------------------------------------------------------------ */
+
+.zap-stack-empty {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 9;
+  margin: 4px;
+  border: 2px dashed var(--zap-border);
+  border-radius: 6px;
+  color: var(--zap-muted);
+}
+
+.zap-stack-panel.is-empty .zap-stack-empty {
+  display: flex;
+}
+
+.zap-stack-panel.is-empty .zap-stack-grid {
+  display: none;
+}
+
+.zap-stack-drop-hint {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed var(--zap-accent);
+  border-radius: 12px;
+  background: rgba(255, 0, 51, 0.18);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.zap-stack-panel.is-drop-target:not(.is-empty) .zap-stack-drop-hint {
+  display: flex;
+  opacity: 0.6;
+}
+
+.zap-stack-panel.is-drop-hover .zap-stack-drop-hint {
+  opacity: 1;
+}
+
+.zap-stack-panel.is-empty.is-drop-hover .zap-stack-empty {
+  border-color: var(--zap-accent);
+  color: var(--zap-fg);
+}
+
+/* Resize handle --------------------------------------------------------- */
+
+/* One invisible handle per corner; only the cursor changes on hover. */
+.zap-stack-resize {
+  position: absolute;
+  z-index: 2;
+  width: 16px;
+  height: 16px;
+  touch-action: none;
+}
+
+.zap-stack-resize[data-corner="tl"] { top: 0; left: 0; cursor: nwse-resize; }
+.zap-stack-resize[data-corner="tr"] { top: 0; right: 0; cursor: nesw-resize; }
+.zap-stack-resize[data-corner="bl"] { bottom: 0; left: 0; cursor: nesw-resize; }
+.zap-stack-resize[data-corner="br"] { bottom: 0; right: 0; cursor: nwse-resize; }
+
+.zap-stack-panel.is-collapsed .zap-stack-resize {
+  display: none;
+}
+
+/* Header ------------------------------------------------------------------ */
+
+.zap-stack-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--zap-border);
+  cursor: grab;
+  touch-action: none;
+}
+
+.zap-stack-panel.is-dragging .zap-stack-header {
+  cursor: grabbing;
+}
+
+.zap-stack-title {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+.zap-stack-count {
+  color: var(--zap-muted);
+  margin-right: auto;
+  font-variant-numeric: tabular-nums;
+}
+
+.zap-stack-rates {
+  display: flex;
+  gap: 2px;
+}
+
+.zap-stack-btn {
+  appearance: none;
+  border: 1px solid var(--zap-border);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--zap-fg);
+  font: inherit;
+  line-height: 1;
+  padding: 5px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.zap-stack-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.zap-stack-btn[hidden] {
+  display: none;
+}
+
+.zap-stack-rate.is-active {
+  background: var(--zap-accent);
+  border-color: var(--zap-accent);
+  color: #fff;
+}
+
+/* Grid -------------------------------------------------------------------- */
+
+.zap-stack-grid {
+  --zap-cols: 1;
+  display: grid;
+  grid-template-columns: repeat(var(--zap-cols), minmax(0, 1fr));
+  gap: 4px;
+  padding: 4px;
+}
+
+.zap-stack-panel.is-collapsed .zap-stack-grid {
+  display: none;
+}
+
+.zap-stack-tile {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background: #000;
+  border-radius: 6px;
+  overflow: hidden;
+  outline: 2px solid transparent;
+  transition: outline-color 0.2s ease, opacity 0.2s ease;
+}
+
+.zap-stack-screen {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #000 center / cover no-repeat;
+}
+
+.zap-stack-caption {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 2px 2px 6px;
+  color: var(--zap-fg);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.zap-stack-caption-text {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.zap-stack-tile.is-zoomed .zap-stack-caption {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* The zoomed tile has a next button in its controls instead. */
+.zap-stack-tile.is-zoomed .zap-stack-skip {
+  display: none;
+}
+
+/* Icon buttons ------------------------------------------------------------ */
+
+.zap-stack-icon-btn {
+  appearance: none;
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--zap-fg);
+  cursor: pointer;
+}
+
+.zap-stack-icon-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.zap-stack-icon-btn svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.zap-stack-header .zap-stack-icon-btn {
+  width: 26px;
+  height: 24px;
+  border: 1px solid var(--zap-border);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* Zoomed tile controls ---------------------------------------------------- */
+
+.zap-stack-controls {
+  display: none;
+  align-items: center;
+  gap: 2px;
+  padding: 4px;
+}
+
+.zap-stack-tile.is-zoomed .zap-stack-controls {
+  display: flex;
+}
+
+.zap-stack-controls.is-disabled button,
+.zap-stack-controls.is-disabled .zap-stack-seek {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.zap-stack-seek {
+  flex: 1;
+  min-width: 60px;
+  margin: 0 6px;
+  accent-color: var(--zap-accent);
+  cursor: pointer;
+}
+
+.zap-stack-time {
+  flex: none;
+  color: var(--zap-muted);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Paused tile marker ------------------------------------------------------ */
+
+.zap-stack-paused-mark {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: none;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.zap-stack-paused-mark svg {
+  width: 100%;
+  height: 100%;
+  fill: #fff;
+}
+
+.zap-stack-tile.is-user-paused .zap-stack-paused-mark {
+  display: block;
+}
+
+/* Keep the watch page hidden until its video is ready, so the thumbnail
+   (tile background) shows instead of a half-loaded YouTube page. */
+.zap-stack-tile.is-loading iframe {
+  opacity: 0;
+}
+
+.zap-stack-loading {
+  position: absolute;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+}
+
+.zap-stack-tile.is-loading .zap-stack-loading {
+  display: flex;
+}
+
+.zap-stack-badge {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  display: none;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: #ffcc00;
+  color: #000;
+  font-size: 11px;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.zap-stack-tile.is-ad .zap-stack-badge {
+  display: block;
+}
+
+.zap-stack-tile.is-ad iframe {
+  filter: brightness(0.5);
+}
+
+/* Let clicks through to the player during ads so the skip button works. */
+.zap-stack-tile.is-ad .zap-stack-catcher {
+  pointer-events: none;
+}
+
+.zap-stack-tile:hover {
+  outline-color: rgba(255, 255, 255, 0.5);
+}
+
+.zap-stack-tile iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Transparent layer above the iframe so clicks reach the extension
+   instead of the embedded player's own play/pause handler. */
+.zap-stack-catcher {
+  position: absolute;
+  inset: 0;
+  cursor: zoom-in;
+}
+
+.zap-stack-tile.is-zoomed .zap-stack-catcher {
+  cursor: zoom-out;
+}
+
+.zap-stack-tile-close {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 22px;
+  height: 22px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.zap-stack-tile:hover .zap-stack-tile-close,
+.zap-stack-tile.is-error .zap-stack-tile-close {
+  opacity: 1;
+}
+
+.zap-stack-tile-close:hover {
+  background: var(--zap-accent);
+}
+
+/* Zoom layout: the zoomed tile spans the full row on top,
+   the rest line up as a strip of thumbnails below it. */
+.zap-stack-panel.is-zoomed .zap-stack-tile.is-zoomed {
+  grid-column: 1 / -1;
+  order: -1;
+  outline-color: var(--zap-accent);
+}
+
+/* Muted tiles that keep playing next to the zoomed one. */
+.zap-stack-tile.is-background {
+  opacity: 0.6;
+}
+
+.zap-stack-tile.is-background:hover {
+  opacity: 0.9;
+}
+
+.zap-stack-tile.is-flash {
+  animation: zap-stack-flash 0.6s ease 2;
+}
+
+@keyframes zap-stack-flash {
+  50% {
+    outline-color: var(--zap-accent);
+  }
+}
+
+/* Error ------------------------------------------------------------------- */
+
+.zap-stack-error {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  background: rgba(20, 20, 20, 0.96);
+  text-align: center;
+}
+
+.zap-stack-error[hidden] {
+  display: none;
+}
+
+.zap-stack-error p {
+  margin: 0;
+  color: var(--zap-fg);
+}
+
+/* Toast ------------------------------------------------------------------- */
+
+.zap-stack-toast {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.zap-stack-toast[hidden] {
+  display: none;
+}

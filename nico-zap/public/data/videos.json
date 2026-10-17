@@ -1,0 +1,132 @@
+[
+  {
+    "mockId": "mock01",
+    "clipSeconds": 180,
+    "credit": {
+      "title": "Big Buck Bunny",
+      "year": 2008,
+      "author": "Blender Foundation",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Buck_Bunny_4K.webm",
+      "changes": "60秒目から180秒を切り出し、16:9にトリミングして240pに再エンコード"
+    }
+  },
+  {
+    "mockId": "mock02",
+    "clipSeconds": 180,
+    "credit": {
+      "title": "Spring",
+      "year": 2019,
+      "author": "Blender Animation Studio",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spring_-_Blender_Open_Movie.webm",
+      "changes": "20秒目から180秒を切り出し、16:9にトリミングして240pに再エンコード"
+    }
+  },
+  {
+    "mockId": "mock03",
+    "clipSeconds": 180,
+    "credit": {
+      "title": "Coffee Run",
+      "year": 2020,
+      "author": "Blender Studio",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coffee_Run_-_Blender_Open_Movie-full_movie.webm",
+      "changes": "0秒目から180秒を切り出し、16:9にトリミングして240pに再エンコード"
+    }
+  },
+  {
+    "mockId": "mock04",
+    "clipSeconds": 180,
+    "credit": {
+      "title": "Elephants Dream",
+      "year": 2006,
+      "author": "Blender Foundation / Netherlands Media Art Institute",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elephants_Dream_(2006)_1080p24.webm",
+      "changes": "30秒目から180秒を切り出し、16:9にトリミングして240pに再エンコード"
+    }
+  },
+  {
+    "mockId": "mock05",
+    "clipSeconds": 180,
+    "credit": {
+      "title": "HERO",
+      "year": 2018,
+      "author": "Blender Animation Studio",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HERO_-_Blender_Open_Movie-full_movie.webm",
+      "changes": "10秒目から180秒を切り出し、16:9にトリミングして240pに再エンコード"
+    }
+  },
+  {
+    "mockId": "mock06",
+    "clipSeconds": 180,
+    "credit": {
+      "title": "Glass Half",
+      "year": 2015,
+      "author": "Blender Institute",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glass_Half_-_Blender_Open_Movie-full_movie.webm",
+      "changes": "5秒目から180秒を切り出し、16:9にトリミングして240pに再エンコード"
+    }
+  },
+  {
+    "mockId": "mock07",
+    "clipSeconds": 180,
+    "credit": {
+      "title": "WING IT!",
+      "year": 2023,
+      "author": "Blender Studio",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:WING_IT!_-_Blender_Open_Movie-full_movie.webm",
+      "changes": "15秒目から180秒を切り出し、16:9にトリミングして240pに再エンコード"
+    }
+  },
+  {
+    "mockId": "mock08",
+    "clipSeconds": 180,
+    "credit": {
+      "title": "Sprite Fright",
+      "year": 2021,
+      "author": "Blender Studio",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sprite_Fright_-_Blender_Open_Movie-full_movie.webm",
+      "changes": "30秒目から180秒を切り出し、16:9にトリミングして240pに再エンコード"
+    }
+  },
+  {
+    "mockId": "mock09",
+    "clipSeconds": 89,
+    "credit": {
+      "title": "Caminandes: Llama Drama",
+      "year": 2013,
+      "author": "Blender Foundation / Pablo Vazquez",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caminandes-_Llama_Drama_-_Short_Movie.ogv",
+      "changes": "0秒目から89秒を切り出し、16:9にトリミングして240pに再エンコード"
+    }
+  },
+  {
+    "mockId": "mock10",
+    "clipSeconds": 180,
+    "credit": {
+      "title": "Tears of Steel",
+      "year": 2012,
+      "author": "Blender Foundation",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm",
+      "changes": "60秒目から180秒を切り出し、16:9にトリミングして240pに再エンコード"
+    }
+  }
+]
