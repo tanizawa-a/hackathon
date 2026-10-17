@@ -35,7 +35,7 @@ export function timelineLength(item: VideoItem): number {
 
 // Only 240p mock files exist; quality switching is simulated (label and budget only).
 function sourcesOf(mockId: string): VideoItem["sources"] {
-  const file = `/videos/${mockId}_240p.mp4`;
+  const file = `${import.meta.env.BASE_URL}videos/${mockId}_240p.mp4`;
   return { "240p": file, "360p": file, "720p": file };
 }
 
@@ -63,7 +63,7 @@ export function toVideoItem(p: PoolItem, opts: ItemOptions, mockVideos: Record<s
     viewCounter: p.viewCounter,
     commentCounter: p.commentCounter,
     likeCounter: p.likeCounter,
-    thumbnail: `/thumbnails/${mockId}.jpg`,
+    thumbnail: `${import.meta.env.BASE_URL}thumbnails/${mockId}.jpg`,
     realThumbnail: p.thumbnail ?? null,
     clipSeconds: mock?.clipSeconds ?? config.mockVideoSeconds,
     credit: mock?.credit ?? null,

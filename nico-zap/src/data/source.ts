@@ -18,7 +18,7 @@ export interface DataSource {
 }
 
 export async function fetchJson<T>(url: string): Promise<T> {
-  const res = await fetch(url);
+  const res = await fetch(import.meta.env.BASE_URL + url.replace(/^\//, ""));
   if (!res.ok) throw new Error(`${url}: ${res.status}`);
   return (await res.json()) as T;
 }

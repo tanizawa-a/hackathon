@@ -18,5 +18,5 @@ export function formatCount(n: number): string {
 
 export function thumbnailSrc(item: { thumbnail: string; realThumbnail: string | null }, style: "real" | "mosaic" | "off"): string {
   if (!item.realThumbnail || style === "off") return item.thumbnail;
-  return `/thumbnails/${style}/${item.realThumbnail}.jpg`;
+  return `${import.meta.env.BASE_URL}thumbnails/${style}/${item.realThumbnail}.jpg`;
 }
