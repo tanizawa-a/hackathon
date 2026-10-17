@@ -1,4 +1,4 @@
-# ハッカソンのリポジトリ
+# ハッカソン
 
 ## zap-stack
 YouTube動画の複数同時視聴Chrome拡張。
